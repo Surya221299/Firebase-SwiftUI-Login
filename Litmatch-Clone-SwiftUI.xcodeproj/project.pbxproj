@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6965112AA9B1DD00E39B8A /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6965102AA9B1DD00E39B8A /* Login.swift */; };
+		FAC7218C2AA9AB05007FE8DF /* Litmatch_Clone_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7218B2AA9AB05007FE8DF /* Litmatch_Clone_SwiftUIApp.swift */; };
+		FAC7218E2AA9AB05007FE8DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7218D2AA9AB05007FE8DF /* ContentView.swift */; };
+		FAC721902AA9AB0A007FE8DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC7218F2AA9AB0A007FE8DF /* Assets.xcassets */; };
+		FAC721932AA9AB0A007FE8DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC721922AA9AB0A007FE8DF /* Preview Assets.xcassets */; };
+		FAC7219B2AA9AB4D007FE8DF /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = FAC7219A2AA9AB4D007FE8DF /* FacebookCore */; };
+		FAC7219D2AA9AB4D007FE8DF /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = FAC7219C2AA9AB4D007FE8DF /* FacebookLogin */; };
+		FAC721A02AA9AC03007FE8DF /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FAC7219F2AA9AC03007FE8DF /* FirebaseAuth */; };
+		FAC721A32AA9AC97007FE8DF /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = FAC721A22AA9AC97007FE8DF /* GoogleSignIn */; };
+		FAC721A52AA9AC97007FE8DF /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAC721A42AA9AC97007FE8DF /* GoogleSignInSwift */; };
+		FAC721A72AA9AD1D007FE8DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC721A62AA9AD1C007FE8DF /* GoogleService-Info.plist */; };
+		FAC721AD2AA9AF69007FE8DF /* LoginFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC721AC2AA9AF69007FE8DF /* LoginFacebook.swift */; };
+		FAC721AF2AA9B036007FE8DF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC721AE2AA9B035007FE8DF /* LoginViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA6965102AA9B1DD00E39B8A /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FAC721882AA9AB05007FE8DF /* Litmatch-Clone-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Litmatch-Clone-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC7218B2AA9AB05007FE8DF /* Litmatch_Clone_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litmatch_Clone_SwiftUIApp.swift; sourceTree = "<group>"; };
+		FAC7218D2AA9AB05007FE8DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAC7218F2AA9AB0A007FE8DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC721922AA9AB0A007FE8DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC721A62AA9AD1C007FE8DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAC721A82AA9AD34007FE8DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FAC721A92AA9AD5C007FE8DF /* Litmatch-Clone-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Litmatch-Clone-SwiftUI.entitlements"; sourceTree = "<group>"; };
+		FAC721AC2AA9AF69007FE8DF /* LoginFacebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFacebook.swift; sourceTree = "<group>"; };
+		FAC721AE2AA9B035007FE8DF /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC721852AA9AB05007FE8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC721A52AA9AC97007FE8DF /* GoogleSignInSwift in Frameworks */,
+				FAC7219D2AA9AB4D007FE8DF /* FacebookLogin in Frameworks */,
+				FAC721A32AA9AC97007FE8DF /* GoogleSignIn in Frameworks */,
+				FAC721A02AA9AC03007FE8DF /* FirebaseAuth in Frameworks */,
+				FAC7219B2AA9AB4D007FE8DF /* FacebookCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA69650F2AA9B19600E39B8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA6965102AA9B1DD00E39B8A /* Login.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC7217F2AA9AB04007FE8DF = {
+			isa = PBXGroup;
+			children = (
+				FAC7218A2AA9AB05007FE8DF /* Litmatch-Clone-SwiftUI */,
+				FAC721892AA9AB05007FE8DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC721892AA9AB05007FE8DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC721882AA9AB05007FE8DF /* Litmatch-Clone-SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC7218A2AA9AB05007FE8DF /* Litmatch-Clone-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FA69650F2AA9B19600E39B8A /* View */,
+				FAC721AB2AA9AD79007FE8DF /* Model */,
+				FAC721AA2AA9AD71007FE8DF /* ViewModel */,
+				FAC721A92AA9AD5C007FE8DF /* Litmatch-Clone-SwiftUI.entitlements */,
+				FAC721A82AA9AD34007FE8DF /* Info.plist */,
+				FAC7218B2AA9AB05007FE8DF /* Litmatch_Clone_SwiftUIApp.swift */,
+				FAC7218D2AA9AB05007FE8DF /* ContentView.swift */,
+				FAC721A62AA9AD1C007FE8DF /* GoogleService-Info.plist */,
+				FAC7218F2AA9AB0A007FE8DF /* Assets.xcassets */,
+				FAC721912AA9AB0A007FE8DF /* Preview Content */,
+			);
+			path = "Litmatch-Clone-SwiftUI";
+			sourceTree = "<group>";
+		};
+		FAC721912AA9AB0A007FE8DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAC721922AA9AB0A007FE8DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAC721AA2AA9AD71007FE8DF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAC721AE2AA9B035007FE8DF /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAC721AB2AA9AD79007FE8DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAC721AC2AA9AF69007FE8DF /* LoginFacebook.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC721872AA9AB05007FE8DF /* Litmatch-Clone-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC721962AA9AB0A007FE8DF /* Build configuration list for PBXNativeTarget "Litmatch-Clone-SwiftUI" */;
+			buildPhases = (
+				FAC721842AA9AB05007FE8DF /* Sources */,
+				FAC721852AA9AB05007FE8DF /* Frameworks */,
+				FAC721862AA9AB05007FE8DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Litmatch-Clone-SwiftUI";
+			packageProductDependencies = (
+				FAC7219A2AA9AB4D007FE8DF /* FacebookCore */,
+				FAC7219C2AA9AB4D007FE8DF /* FacebookLogin */,
+				FAC7219F2AA9AC03007FE8DF /* FirebaseAuth */,
+				FAC721A22AA9AC97007FE8DF /* GoogleSignIn */,
+				FAC721A42AA9AC97007FE8DF /* GoogleSignInSwift */,
+			);
+			productName = "Litmatch-Clone-SwiftUI";
+			productReference = FAC721882AA9AB05007FE8DF /* Litmatch-Clone-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC721802AA9AB04007FE8DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FAC721872AA9AB05007FE8DF = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FAC721832AA9AB04007FE8DF /* Build configuration list for PBXProject "Litmatch-Clone-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC7217F2AA9AB04007FE8DF;
+			packageReferences = (
+				FAC721992AA9AB4D007FE8DF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				FAC7219E2AA9AC03007FE8DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				FAC721A12AA9AC96007FE8DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
+			productRefGroup = FAC721892AA9AB05007FE8DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC721872AA9AB05007FE8DF /* Litmatch-Clone-SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC721862AA9AB05007FE8DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC721932AA9AB0A007FE8DF /* Preview Assets.xcassets in Resources */,
+				FAC721902AA9AB0A007FE8DF /* Assets.xcassets in Resources */,
+				FAC721A72AA9AD1D007FE8DF /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC721842AA9AB05007FE8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC721AF2AA9B036007FE8DF /* LoginViewModel.swift in Sources */,
+				FA6965112AA9B1DD00E39B8A /* Login.swift in Sources */,
+				FAC7218E2AA9AB05007FE8DF /* ContentView.swift in Sources */,
+				FAC721AD2AA9AF69007FE8DF /* LoginFacebook.swift in Sources */,
+				FAC7218C2AA9AB05007FE8DF /* Litmatch_Clone_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAC721942AA9AB0A007FE8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC721952AA9AB0A007FE8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC721972AA9AB0A007FE8DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Litmatch-Clone-SwiftUI/Litmatch-Clone-SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Litmatch-Clone-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Litmatch-Clone-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.Litmatch-Clone-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC721982AA9AB0A007FE8DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Litmatch-Clone-SwiftUI/Litmatch-Clone-SwiftUI.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Litmatch-Clone-SwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Litmatch-Clone-SwiftUI/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.suryacenter.Litmatch-Clone-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC721832AA9AB04007FE8DF /* Build configuration list for PBXProject "Litmatch-Clone-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC721942AA9AB0A007FE8DF /* Debug */,
+				FAC721952AA9AB0A007FE8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC721962AA9AB0A007FE8DF /* Build configuration list for PBXNativeTarget "Litmatch-Clone-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC721972AA9AB0A007FE8DF /* Debug */,
+				FAC721982AA9AB0A007FE8DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAC721992AA9AB4D007FE8DF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		FAC7219E2AA9AC03007FE8DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		FAC721A12AA9AC96007FE8DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAC7219A2AA9AB4D007FE8DF /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAC721992AA9AB4D007FE8DF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		FAC7219C2AA9AB4D007FE8DF /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAC721992AA9AB4D007FE8DF /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		FAC7219F2AA9AC03007FE8DF /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAC7219E2AA9AC03007FE8DF /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FAC721A22AA9AC97007FE8DF /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAC721A12AA9AC96007FE8DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		FAC721A42AA9AC97007FE8DF /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAC721A12AA9AC96007FE8DF /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FAC721802AA9AB04007FE8DF /* Project object */;
+}
