@@ -12,11 +12,13 @@ I’m build this app because I’m also litmatch user and I have interested to c
 This app still in development, for now available feature only sign in using google, and facebook.
 
 List of contents :
-- 1
-- 2
-- 3
-- 4
-- 5
+- Project Description.
+- UI Login Screen.
+- Demo Sign in with Facebook and Google Account.
+- Available Features.
+- Upcoming Features.
+- Firebase Installation.
+- What i've been learn from creating this project.
 
 _**Litmatch-Clone-Screenshot**_
 
