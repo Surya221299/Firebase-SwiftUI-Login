@@ -24,9 +24,6 @@ _**Litmatch-Clone-Screenshot**_
 
 <img src="https://github.com/Surya221299/Litmatch-Clone-SwiftUI/assets/60531747/4ad336dd-f719-4ef7-a045-29dec3f02b8a" width="250" height="541"/>
 
-_**Registration User Flow**_
-![Registration User Flow](https://github.com/Surya221299/Litmatch-Clone-SwiftUI/assets/60531747/8d82e9d8-9698-498c-ac5c-14f323d3f55a)
-
 _**Facebook Sign in Video.**_
 
 https://github.com/Surya221299/Litmatch-Clone-SwiftUI/assets/60531747/0efa94ac-b8e1-4ae4-a512-bbb68996f979
